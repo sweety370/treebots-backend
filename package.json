@@ -1,13 +1,16 @@
 {
   "name": "treebots-backend",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "TreeBots Backend",
-  "main": "server.js",
+  "main": "worker.js",
   "scripts": {
-    "start": "node server.js"
+    "deploy": "wrangler deploy"
   },
   "dependencies": {
-    "express": "^5.1.0",
-    "cors": "^2.8.5"
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "wrangler": "^4.127.0"
   }
 }
