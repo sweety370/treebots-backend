@@ -1,3 +1,11 @@
 name = "treebots-backend"
 main = "worker.js"
 compatibility_date = "2026-08-28"
+
+workers_dev = true
+preview_urls = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "treebots-db"
+database_id = "7353047a-cea8-4a14-8b9a-cc03c850b628"
